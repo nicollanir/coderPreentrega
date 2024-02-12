@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>f1Store</title>
+    <link rel=preload href="style/normalize.css" as="styile">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<link rel=preload href="style/style.css" as="styile">
+    <link href="style/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="logo">
+            <img class="f1Ico" src="imagenes/F1.svg.png" alt="">
+            
+        </a>     
+        <input class="buscador" type="text" placeholder="Buscar">   
+
+        <Div>
+          <img class="f1Ico2" src="imagenes/Icons.svg" alt="">
+             
+        </Div>
+        
+    </header>
+
+   
+    <div id="carouselExampleCaptions" class="carousel slide ">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/imagenes/banner/1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Lentes</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/imagenes/banner/2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>OFFICIAL MERCHANDISING</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/imagenes/banner/3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>TICKETS</h1>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+    
+
+   <!--<Section class="hero">
+        <div class="contenido-hero"> 
+            <h2 class="titulo" >Formula 1 <span>Store</span></h2>
+
+
+            <div class="ubicacion">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg></p>
+                
+            </div>
+           
+           
+        </div>.contendido-hero 
+    </Section>-->
+    
+
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Nuevo</a>
+            <a href="/oferta.html">Oferta</a>
+            <a href="#">Próximamente</a>
+        </nav>
+    </div>
+   
+
+
+    <Main class="contenedor sombra">
+        <h2 class="tituloMine">Destacados</h2>
+
+
+
+        <div class="img-gallery">
+
+            <Section class="servicio">
+                <h3>Gorra Williams</h3>
+                <img src="imagenes/Modificadas/1.jpg" onclick="openFulImg(this.src)" alt="">
+                <h3 class="desciptionProduct">USD 0.00 </h3>
+                
+            </Section>
+            <Section class="servicio">
+                <h3>Polo Williams</h3> 
+                <img src="imagenes/Modificadas/2.jpg" onclick="openFulImg(this.src)" alt="">
+                <h3 class="desciptionProduct">USD 0.00 </h3>
+               
+            </Section>
+            <Section class="servicio">
+                <h3>Campera Williams</h3>
+                <img src="imagenes/Modificadas/3.jpg" onclick="openFulImg(this.src)" alt="">
+                <h3 class="desciptionProduct">USD 0.00 </h3>
+                
+            </Section>
+            <Section class="servicio">
+                <h3>Polo Mercedes AMG</h3>
+                <img src="imagenes/Modificadas/4.jpg" onclick="openFulImg(this.src)" alt="">
+                <h3 class="desciptionProduct">USD 0.00 </h3>
+                
+            </Section>
+            <Section class="servicio">
+                <h3>Campera Mercedes AMG</h3>
+                <img src="imagenes/Modificadas/5.jpg" onclick="openFulImg(this.src)" alt="">
+                <h3 class="desciptionProduct">USD 0.00 </h3>
+                
+            </Section>
+            <Section class="servicio">
+                <h3>Gorra Hamilton Mercedes</h3>
+                <img src="imagenes/Modificadas/6.jpg" onclick="openFulImg(this.src)" alt="">
+                <h3 class="desciptionProduct">USD 0.00 </h3>
+                
+            </Section>
+            <Section class="servicio">
+                <h3>Ferrari - Especial Monza</h3>
+                <img src="imagenes/Modificadas/7.jpg" onclick="openFulImg(this.src)" alt="">
+                <h3 class="desciptionProduct">USD 0.00 </h3>
+                
+            </Section>
+            <Section class="servicio">
+                <h3>Remera Ferrari especial Austin</h3>
+                <img src="imagenes/Modificadas/8.jpg" onclick="openFulImg(this.src)" alt="">
+                <h3 class="desciptionProduct">USD 0.00 </h3>
+                
+            </Section>
+            <Section class="servicio">
+                <h3>Remera Ferrari Las Vegas</h3>
+                <img src="imagenes/Modificadas/9.jpg" onclick="openFulImg(this.src)" alt="">
+                <h3 class="desciptionProduct">USD 0.00 </h3>
+                
+            </Section>
+            <Section class="servicio">
+                <h3>Lentes Ferrari</h3>
+                <img src="imagenes/Modificadas/10.jpg" onclick="openFulImg(this.src)" alt="">
+                <h3 class="desciptionProduct">USD 0.00 </h3>
+                
+            </Section>
+            <Section class="servicio">
+                <h3>Gorra Alpha Tauri</h3>
+                <img src="imagenes/Modificadas/11.jpg" onclick="openFulImg(this.src)" alt="">
+                <h3 class="desciptionProduct">USD 0.00 </h3>
+               
+            </Section>
+            <Section class="servicio">
+                <h3>Ferrari 2022 1/18</h3>
+                <img src="imagenes/Modificadas/12.jpg" onclick="openFulImg(this.src)" alt="">
+                <h3 class="desciptionProduct">USD 0.00 </h3>
+               
+            </Section>
+            
+
+    
+        </div>
+
+<!--
+        <div class="servicios"> 
+            <Section class="servicio">
+                <h3>Diseño Web</h3>
+                <img src="imagenes/Modificadas/1.jpg" onclick="openFulImg(this.src)" alt="">
+                <p>Sed volutpat leo velit. Quisque viverra dictum tellus, a dignissim felis viverra pellentesque. </p>
+            </Section>
+
+            <Section class="servicio">
+                <h3>Aplicaciones Web </h3>
+                
+                <img src="imagenes/Modificadas/2.jpg" onclick="openFulImg(this.src)" alt="">
+                         
+                <p>Sed volutpat leo velit. Quisque viverra dictum tellus, a dignissim felis viverra pellentesque. </p>
+            </Section>
+
+            <section class="servicio">
+                <h3>E-Comerce </h3>
+                <div class="iconos">
+                    <img src="imagenes/Modificadas/3.jpg" onclick="openFulImg(this.src)" alt="">
+                </div>
+                <p>Sed volutpat leo velit. Quisque viverra dictum tellus, a dignissim felis viverra pellentesque. </p>
+            </section>
+        </div> Cierre de clase de servicios-->
+    
+       
+    </Main>
+
+    <Section class="sectionForm">
+        <form class="formulario"> 
+
+            <fieldset>
+                <legend>Contactanos Llenando Todos los Campos</legend>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <Label>Nombre</Label>
+                        <input class="input-text" type="text" placeholder="Nombre">
+                    </div>
+
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input class="input-text" type="tel" placeholder="Teléfono">
+                    </div>
+
+                    <div class="campo">
+                        <label>Mail</label>
+                        <input class="input-text" type="email" placeholder="Mail">
+                    </div>
+
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
+
+                </div>  <!--Este es el contenedor de los campos-->
+
+                <div class="alinear-derecha flex">
+                <input class="boton w-100" type="submit" value="Enviar">
+                </div>
+               
+
+            </fieldset>
+        </form>
+    </Section>
+
+    <footer class="footer">
+    <img class="f1Ico2" src="imagenes/redes.svg" alt="">
+
+        <p>Formula 1 Liverty Media - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+
+</html>
